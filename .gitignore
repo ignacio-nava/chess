@@ -1,0 +1,4 @@
+db.sqlite3
+play/static/play/js/chessboard-1.0.0.js
+play/static/play/js/chessboard-1.0.0.min.js
+play/static/play/css/chessboard-1.0.0.min.css

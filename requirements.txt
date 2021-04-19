@@ -1,0 +1,7 @@
+# Run pip install -r requirements.txt
+django
+pre-commit
+django-ckeditor
+django-tinymce
+# Chess engine
+stockfish

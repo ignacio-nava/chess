@@ -1,0 +1,18 @@
+{% extends 'navbar.html' %}
+
+{% block content %}
+  <ul>
+    {% for article in article_list %}
+      <li>
+        <div>
+          <img src="{{ article.image_show }}" alt="{{ article.title }}" width="240px">
+        </div>
+        <div>
+          <a href="{% url 'articles:detail' article.slug %}">
+            {{ article }}
+          </a>
+        </div>
+      </li>
+    {% endfor %}
+  </ul>
+{% endblock %}

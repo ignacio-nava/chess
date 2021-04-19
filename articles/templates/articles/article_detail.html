@@ -1,0 +1,10 @@
+{% extends 'navbar.html' %}
+
+{% block content %}
+  {% if article %}
+    <article>
+      <img src="{{ article.image_show }}" alt="{{ article.title }}">
+      {{ article.body|safe }}
+    </article>
+  {% endif %}
+{% endblock %}
